@@ -1,0 +1,11 @@
+1. On your openstack node:
+      pip install -r requirements
+2. Download OpenStack RC File V3 through Dashboard
+      (You can find this file in the upper right corner of
+      the dashboard by click admin)
+3. Move the downloaded file to your OpenStack node.
+4. Assume the file named adminrc
+   chmod +x adminrc
+   . adminrc
+5. python dhcp_rescheduler.py
+   python router_rescheduler.py
