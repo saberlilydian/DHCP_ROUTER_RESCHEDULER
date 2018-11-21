@@ -1,3 +1,2 @@
-os
 keystoneauth1
-neutronclient
+python-neutronclient
